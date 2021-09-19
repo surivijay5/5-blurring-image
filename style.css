@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.bg-image{
+    background: url('https://images.hdqwalls.com/download/justice-league-heroes-vs-darkseid-5k-1e-3840x2160.jpg') no-repeat center center/cover;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    filter: blur(0px);
+}
+
+.loading-text{
+    font-size: 50px;
+    color: #fff;
+}
